@@ -1,0 +1,109 @@
+
+
+.slider{
+
+    height: 600px;
+    background-image:url("https://www.visitrwanda.com/wp-content/uploads/fly-images/1659/Visit-Rwanda-Kingfisher-Kayaking-1920x1079.jpg");
+    animation: slide 15s infinite;
+
+    background-size: cover;
+    padding: 90px;
+   /*-- position: relative; */
+    animation-delay: 3s;
+    background-repeat: no-repeat;
+
+
+
+}
+@keyframes slide{
+
+    0%{
+        background-image: url("https://www.visitrwanda.com/wp-content/uploads/fly-images/1659/Visit-Rwanda-Kingfisher-Kayaking-1920x1079.jpg");
+    }
+
+    50%{
+        background-image: url("https://www.demandafrica.com/wp-content/uploads/2019/03/Kings-Palace-Museum-Rwanda.jpg" );
+    }
+
+
+    100%{
+        background-image: url("https://www.newtimes.co.rw/sites/default/files/kcc.jpg");
+    }
+    20%{
+        background-image: url("https://www.newtimes.co.rw/sites/default/files/styles/mystyle/public/main/articles/2018/10/14/nyungwe.jpg");
+
+    }
+    75%{
+        background-image: url("https://i0.wp.com/images.robertharding.com/preview/RM/RH/HORIZONTAL/1173-4581.jpg?resize=480%2C322&ssl=1");
+
+    }
+    25%{
+        background-image: url("https://www.volcanoesnationalparkrwanda.com/wp-content/uploads/2019/03/Rwanda-Join-Forces-With-Tanzania-With-Tanzania-to-Promote-Tourism.jpg");
+    }
+
+
+}
+
+.slider p,h1{
+    font-weight: bolder;
+    color:white;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    
+}
+.card-body{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  #smallcards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  .stay{
+    width:200px;
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: 10px;
+    text-align: center;
+    background-color:white;
+    
+  }
+ 
+  .footer{
+      background-color: rgb(27, 36, 36);
+      background-size: contain;
+      position: relative;
+      
+  }
+  .sub{
+      background-color : #00588b;
+      position: relative;
+      background-size: contain;
+      color:rgb(240, 240, 240);
+      text-align: center;
+    
+  }
+.container-fluid .navbar{
+
+   padding-top: 0rem;
+    padding-left: 50%;  
+    background-color: #0074B7;
+}
+  .container-fluid .navbar .nav-link{
+    color:white;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 16px;
+    
+  }
+
+   a:hover{
+      background-color:  rgb(77, 107, 107);
+  }
+
+  

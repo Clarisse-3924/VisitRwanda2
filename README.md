@@ -30,7 +30,8 @@ we have used: html,javascripts,css,jquerries,Bootstrap,css
 You have to open yur terminal(Ctrl+Alt+T) You have to clone this project by using this link https://github.com/Clarisse-3924/VisitRwanda2.git
 
 # Contact:
- These are our  contact in case you want to contact. Email: cuwizeyimana820@daviscollege.com
+ These are our  contact in case you want to contact.
+ Email: cuwizeyimana820@daviscollege.com
 
 # License :
 information MIT license and  Copyright@2020

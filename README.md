@@ -1,7 +1,4 @@
 # VisitRwanda2
-
-# VisitRwanda
-
 # Author:
 Clarisse Uwizeyimana
 

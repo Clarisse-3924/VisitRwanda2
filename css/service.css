@@ -6,7 +6,7 @@
     padding:20px;
     background-color:lightgrey;
     justify-content: space-evenly;
-    color: rgb(0, 119, 255);
+    color:  #0074B7;
     display: none;
     margin-top: 40px;
   width:1100px; 
@@ -24,7 +24,7 @@
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: rgb(0, 119, 255);
+  background-color: #0074B7;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -37,7 +37,7 @@
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: rgb(0, 119, 255);
+  background-color:  #0074B7;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -52,7 +52,7 @@
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: rgb(0, 119, 255);
+  background-color:  #0074B7;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -66,12 +66,12 @@
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: rgb(0, 119, 255);
+  background-color: #0074B7;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
-#con{display: inline-block;
+#con,#cance1{display: inline-block;
   padding: 5px 15px;
   font-size: 10px;
   cursor: pointer;
@@ -79,7 +79,7 @@
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: rgb(0, 119, 255);
+  background-color:  #0074B7;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -87,7 +87,7 @@
 
 
 }
-#conf{
+#conf,#confirm{
   display: inline-block;
     padding: 5px 15px;
     font-size: 10px;
@@ -96,7 +96,7 @@
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: rgb(0, 119, 255);
+    background-color:  #0074B7;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
@@ -122,7 +122,7 @@
   margin-left: 30px;
   background-color:lightgrey;
   justify-content: space-evenly;
-  color: rgb(0, 119, 255);
+  color: #0074B7;
   display: none;
   margin-top: 20px;
   width:1000px; 
@@ -133,7 +133,7 @@
   padding:20px;
   background-color:lightgrey;
   justify-content: space-evenly;
-  color:  rgb(0, 119, 255);
+  color:  #0074B7;
   display: none;
   margin-top: 20px;
   width:1000px; 
@@ -146,11 +146,11 @@
   padding:20px;
   background-color:lightgrey;
   justify-content: space-evenly;
-  color: rgb(0, 119, 255);
+  color:  #0074B7;
   display: none;
   margin-top: 20px;
   width:1000px; 
-  height: 800px;
+  height: 700px;
   
 
 }
@@ -162,17 +162,17 @@
 width: 300px;
   background-color:lightgrey;
   justify-content: space-evenly;
-  color:  rgb(0, 119, 255);
+  color:  #0074B7;
   display: none;
-  margin-top: -600px;
-  margin-left:100px
+  margin-top: -800px;
+  margin-left:600px
  
 
 }
 #history1{display: none;
   position: absolute;
   top: 110%;
-  color rgb(0, 119, 255);
+  color: #0074B7;
   transform: translate(-50%, -50%);
   background-color: white;
   opacity: 0.6;
@@ -189,7 +189,7 @@ width: 300px;
 width: 300px;
   background-color:lightgrey;
   justify-content: space-evenly;
-  color:  rgb(0, 119, 255);
+  color:  #0074B7;
   display: none;
   margin-top: -600px;
   margin-left:500px
@@ -202,9 +202,9 @@ width: 300px;
 width: 300px;
   background-color:lightgrey;
   justify-content: space-evenly;
-  color: rgb(0, 119, 255);
+  color:  #0074B7;
   display: none;
-  margin-top: -500px;
+  margin-top: -300px;
   margin-left:500px
 }
 .Verfy{
@@ -215,7 +215,7 @@ width: 300px;
 width: 300px;
   background-color:lightgrey;
   justify-content: space-evenly;
-  color:  rgb(0, 119, 255);
+  color:  #0074B7;
   display: none;
   margin-top: -600px;
   margin-left:500px
@@ -223,7 +223,7 @@ width: 300px;
 #culture1{display: none;
   position: absolute;
   top: 110%;
-  color: rgb(0, 119, 255);
+  color:  #0074B7;
   transform: translate(-50%, -50%);
   background-color: white;
   opacity: 0.6;
@@ -236,7 +236,7 @@ width: 300px;
 #hike1{display: none;
   position: absolute;
   top: 110%;
-  color: rgb(0, 119, 255);
+  color:  #0074B7;
   transform: translate(-50%, -50%);
   background-color: white;
   opacity: 0.6;
@@ -248,64 +248,74 @@ width: 300px;
   }
   #book{
     display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 15px 15px;
+    font-size: 10px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: rgb(0, 119, 255);
+    background-color:  #0074B7;
     border: none;
+    margin-left: 100px;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    margin-top: 5px;
+    text-justify:center;
   }
   #book1{
     display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 15px 15px;
+    font-size: 10px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: rgb(0, 119, 255);
+    margin-left: 100px;
+    background-color:  #0074B7;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    margin-top: 5px;
+    text-justify:center;
 
   }
   #book2{
     display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 15px 15px;
+    font-size: 10px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: rgb(0, 119, 255);
+    background-color:  #0074B7;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-
+    margin-top: 5px;
+    text-justify:center;
+    margin-left: 100px;
   }
  
   
   #book3{
     display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 15px 15px;
+    font-size: 10px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: rgb(0, 119, 255);
+    margin-left: 100px;
+    background-color:  #0074B7;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-
+    margin-top: 5px;
+    text-justify:center;
   }
   #book:hover,#book1:hover,#book2:hover,#book3:hover{
     background-color: lightblue}
@@ -325,7 +335,7 @@ width: 300px;
     border-radius:15px;
     background-color:lightgrey;
     justify-content: space-evenly;
-    color: rgb(0, 119, 255); 
+    color:  #0074B7; 
     font-size:0%px;
   }
  
@@ -338,7 +348,7 @@ width: 300px;
     margin-right: 800px;
     background-color:lightgrey;
     justify-content: space-evenly;
-    color:rgb(0, 119, 255); 
+    color: #0074B7; 
 }
 .positionlogo{
     justify-content: center;
@@ -388,9 +398,7 @@ width: 300px;
   margin-right: auto;
   margin-left: auto;
   }
-  .row mb-5{
 
-  }
   .footer{
     background-color: rgb(27, 36, 36);
     background-size: contain;
